@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "default": "world",
+      "x-prompt": "What is your name?"
+    },
+    "foo-bar": {
+      "type": "integer"
+    },
+    "enum": {
+      "type": "string",
+      "x-prompt": "Select any option pls pls pls",
+      "enum": [
+        "hello",
+        "world",
+        "пиво"
+      ]
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
